@@ -13,6 +13,7 @@ $(".size").click(function(){
 };
 });
 
+
 $("h1").click(function(){
 if(flag==0){
     next_boom_without_click();
@@ -60,6 +61,7 @@ function final_function(color_index){
     else{
     flag=0;
     level=0;
+    bloom_color=[];
     $("body").addClass("game-over");
     setTimeout(function(){
         $("body").removeClass("game-over");
