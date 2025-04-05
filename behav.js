@@ -64,6 +64,6 @@ function final_function(color_index){
     setTimeout(function(){
         $("body").removeClass("game-over");
     },200);
-    $("h1").text("Game khtm(over),press any key to restart");
+    $("h1").text("Game over");
     }
 }
