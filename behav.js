@@ -64,6 +64,6 @@ function final_function(color_index){
     setTimeout(function(){
         $("body").removeClass("game-over");
     },200);
-    $("h1").text("Game over");
+    $("h1").text("Game over,click me");
     }
 }
