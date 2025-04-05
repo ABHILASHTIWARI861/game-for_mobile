@@ -2,12 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body{
     background-color: #011F3F;
+    margin: 0px;
+    padding: 0px;
+    min-height: fit-content
+    width: 100%;;
 }
 h1{
-    margin:40px;
     text-align: center;
+    margin: 0px;;
+    padding:30px 0px 70px 0px;;
     font-family: 'Press Start 2P', cursive;
-    font-size: 55px;
+    font-size: 45px;
     color: rgb(188, 162, 151);
     text-shadow: 0px 0px 10px burlywood;
 }
@@ -26,8 +31,6 @@ align-items: center;
 .box{
     display: flex;
     gap:55px;
-  
-    
 }
 #green{
 background-color: green;
@@ -52,7 +55,7 @@ background-color: blue;
 footer{
     text-align: center;
     font-size: 30px;
-    margin-top: 60px;
+    padding-top: 20px;
     color: rgb(162, 229, 167);
 }
 @media (max-width: 600px) {
@@ -62,11 +65,12 @@ footer{
    
     }
     h1{
-        font-size: 30px;
-        margin-bottom: 110px;
+        font-size: 25px;
+        margin-bottom: 80px;
+        margin: 0px;;
     }
 footer{
-       margin-top: 60px;
+       padding-top: 20px;
         font-size: 20px;
         color: rgb(162, 229, 167);
 }
